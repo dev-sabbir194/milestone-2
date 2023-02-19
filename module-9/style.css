@@ -1,0 +1,288 @@
+ *{
+    margin: 0;
+    font-family: 'Inter';
+    
+ }
+body{
+    width: 1440px;
+    border: 1px solid;
+    height: 3949px;
+}
+ header{
+    background-image: linear-gradient(390deg, #080808 0%, #12121200 100%), url(./home-work/images/donation12.png);
+
+}
+.nav-bar{
+background-color: blue;
+width: 100px;
+height: 50px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    .first-div{
+       padding: 174px 307px 175px 307px;
+       color: #FFFFFF;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+      
+       
+    }
+    .first-div h1{
+        width: 854;
+        height: 158px;
+        font-weight: 700;
+        font-size: 65px;
+        text-align: center;
+    }
+    .first-div p{
+        width: 691px;
+        height: 56px;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        top: 20px;
+    }
+
+    button{
+        width: 160px;
+        height: 56px;
+        background: #FF5959;
+        top: 30px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #FFFFFF;
+        border: 5px solid #FF5959;
+        border-radius: 5px;
+    }
+
+    .container{
+     
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 126px 384.5px 130px 384.5px;
+        border: 1px solid;
+        width: 671px;
+        height: 486px;
+    }
+
+    .taka{
+        display: flex;
+    }
+    .amount{       
+        width: 136px;
+        height: 123px;
+        background: #FFEEEE;
+        border: 2px solid #FF5959;
+        border-radius: 5px;
+        margin-left: 20px;
+        top: 50px;
+    }
+
+    .amount h3{
+        text-align: center;
+        padding: 44px 23px 43px 23px;
+    }
+    .first-div1 h1{
+        width: 304px;
+        height: 54px;
+        color: #121212;
+        font-weight: 700;
+        font-size: 45px;
+        padding: 0px 558px 0px 558px;
+    }
+    .first-div1 p{
+        font-weight: 400;
+        font-size: 18px;
+        color: #707070;
+        width: 691px;
+        height: 56px;
+        padding: 20px 374px 0px 375px;
+    }
+    h5{
+        padding: 60px 323px 39px 325px;
+        width: 192px;
+        height: 28px;
+    }
+
+    .container-two{
+        border: 1px solid;
+        padding: 130px 192px 130px 192px;
+        text-align: center;
+        width: 1056px;
+        height: 531px;
+    }
+
+    .donate h1{
+        text-align: center;
+        font-weight: 700;
+        font-size: 45px;
+    }
+
+    .donate .p{
+        font-weight: 400;
+        font-size: 18px;
+        color: #707070;
+        text-align: center;
+        padding: 19px 359px 50px 361px;
+
+    }
+    .p-details{
+        width: 374px;
+        height: 351px;
+        background-color: #FF5959;
+        margin-left: 10px;
+        border-radius: 5px;
+        border: 5px solid;
+        
+    }
+    .plan{
+        display: flex;
+
+    }
+    .donate-p{
+        font-weight: 400;
+        font-size: 18px;
+        color: #707070;
+        text-align: center;
+        padding: 18px 359px 50px 138px;
+        height: 55.89px;
+        width: 718.49px;
+
+    }
+    p.det {
+        padding: 0px;
+        text-align: left;
+        padding-top: 10px;
+    }
+    .m{
+        display: flex;
+        margin-top: 60px;
+    }
+
+    .container3 {
+        padding: 131px 204px 100px 204px;
+    }
+
+    
+    .next{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .next img{
+        width: 456px;
+        height: 477px;
+        object-fit: cover;
+        margin-top: 20px;
+    }
+    .next h1{
+
+        font-weight: 700;
+        font-size: 45px;
+        margin-top: 60px;
+    }
+    .next p{
+        margin-top: 20px;
+    }
+    .next .div1{
+        margin-top: 52px;
+    }
+
+    .div1 button{
+        margin-top: 25px;
+        width: 230px;
+        height: 56px;
+        background: #FF5959;
+        top: 30px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #FFFFFF;
+        border: 5px solid #FF5959;
+        border-radius: 5px;
+    }
+
+
+    .container4 {
+        width: 809px;
+        height: 380px;
+        padding: 130px 315.5px 130px 315.5px;
+    }
+
+
+    .last{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-one{
+        text-align: center;
+        padding: 20px 315px 60px 316px;
+    }
+
+
+    .div-one h1 {
+        font-weight: 700;
+        font-size: 45px;
+        color: #121212;
+        margin-bottom: 20px;
+    }
+     .one-p {
+        font-weight: 400;
+        font-size: 18px;
+        color: #707070;
+        width: 691px;
+        height: 56px;
+    }
+    .div-two{
+        background-color: #353535;
+        width: 809px;
+        height: 200px;
+        display: flex;
+    }
+
+    .div-two input{
+        width: 275px;
+        height: 48px;
+        border: 2px solid #FF5959;
+        background-color: #D9D9D9;
+        border-radius: 5px 0px 0px 5px;
+        
+    }
+    .subscribe {
+        margin: 76px 0px 0px 189px;
+
+    }
+    .div-two .buttons{
+        width: 157px;
+        height: 54px;
+        background: #FF5959;
+        font-weight: 600;
+        font-size: 20px;
+        color: #FFFFFF;
+        margin: 76px 0px 0px 0px;
+        border-radius: 0px 5px 5px 0px;
+    }
+
+
+    footer{
+        width: 1440px;
+        height: 177px;
+        background: #0B0D17;
+    }
+    .footer-div-p{
+        font-family: 'Lobster';
+        text-align: center;
+        font-weight: 400;
+        font-size: 36px;
+        color: #ff2d2d;
+        padding: 55.5px 0px 58.5px 0px;
+    }
